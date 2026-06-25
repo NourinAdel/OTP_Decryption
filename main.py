@@ -72,9 +72,9 @@ guesser(1, 0, 'Learning how to write secure software is a necessary skill')
 guesser(2, 0, 'Secure key exchange is needed for symmetric key encryption')
 guesser(3, 0, 'Security at the expense of usability could damage security')
 guesser(4, 0, 'Modern cryptography requires careful and rigorous analysis')
-guesser(5, 0, 'Address randomization could prevent malicious code attacks')
+guesser(5, 0, 'Address randomization could prevent malicious call attacks')
 guesser(6, 0, 'It is not practical to rely solely on symmetric encryption')
-guesser(7, 0, 'I shall never reuse the same password in multiple accounts')
+guesser(7, 0, 'I shall never reuse the same password on multiple accounts')
 
 # update key array
 for (index, position, char) in guesses:
